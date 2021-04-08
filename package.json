@@ -7,17 +7,6 @@
     "prepare": "husky install",
     "test": "jest"
   },
-  "lint-staged": {
-    "*.js": [
-      "standard",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "keywords": [],
   "author": "Douglas Dantas <douglas.mdantas@hotmail.com>",
   "license": "ISC",
