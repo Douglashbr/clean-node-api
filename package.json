@@ -12,7 +12,9 @@
     "test:ci": "npm test -- --coverage"
   },
   "standard": {
-    "env": ["jest"]
+    "env": [
+      "jest"
+    ]
   },
   "keywords": [],
   "author": "Douglas Dantas <douglas.mdantas@hotmail.com>",
@@ -26,6 +28,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.12.3"
+    "mongoose": "^5.12.3",
+    "validator": "^13.5.2"
   }
 }
